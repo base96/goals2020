@@ -1,0 +1,160 @@
+body {	background: #FFB900 ;
+	}
+
+#cabecera { 	/*div*/
+		height: 75px;		
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 1%;
+		background: #FED8FB ;
+
+		/*text*/
+		text-align:center;	
+		line-height: 35px; 
+		color: #468506 ; 
+
+		/*borde*/
+		border: #6E0867 10px ridge ;
+		
+		}
+
+
+#menu {	/*div*/
+	height: 500px;
+	width:75%;
+	background: #C8F29E ;
+	margin: 0 auto;
+
+	/*borde*/
+	border: #468506 10px groove ;
+
+	}
+
+#descripcion {
+		/*div*/
+		height: 200px;
+		width: 300px;
+		float: left;
+		background: white ;
+		/*borde*/
+		border: 1px solid;
+		border-radius: 20px;
+		
+		/*Posicion*/
+		position: relative;
+		top: 30px;
+		left: 180px;
+
+		/*text*/
+		text-align:center;
+		}
+
+#descripcion:hover {
+	transform: scale(1.20,1.20);	
+
+}
+
+
+#goals {
+		/*div*/
+		height: 200px;
+		width: 300px;
+		float: left;
+		background: green;
+		/*borde*/
+		border: 1px solid;
+		border-radius: 20px;
+		
+		/*Posicion*/
+		position: relative;
+		top: 30px;
+		left: 380px;
+
+		/*text*/
+		text-align:center;
+		}
+
+#goals:hover {
+	transform: scale(1.20,1.20);	
+
+}
+
+
+#solicitud {
+		/*div*/
+		height: 200px;
+		width: 300px;
+		float: left;
+		background: white url('descripcion.png');
+		/*borde*/
+		border: 1px solid;
+		border-radius: 20px;
+
+		/*Posicion*/
+		position: relative;
+		top: 260px;
+		left: -420px;
+
+		/*text*/
+		text-align:center;
+		}
+
+#solicitud:hover {
+	transform: scale(1.20,1.20);	
+
+}
+
+
+#acercade {
+		/*div*/
+		height: 200px;
+		width: 300px;
+		float: left;
+		background: yellow url('descripcion.png');
+		/*borde*/
+		border: 1px solid;
+		border-radius: 20px;
+
+		/*Posicion*/		
+		position: relative; 
+		top: 60px; 
+		left: 680px;
+
+		/*text*/
+		text-align:center;
+		}
+
+#acercade:hover {
+	transform: scale(1.20,1.20);	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+body {	background: #FFB900 ;
+
+	}
+
+#cabecera { 	/*div*/
+		height: 75px;		
+		width: 80%;
+		margin: 0 auto;
+		background: #FED8FB ;
+
+		/*text*/
+		text-align:center;	
+		line-height: 35px; 
+		color: #468506 ; 
+
+		/*borde*/
+		border: #6E0867 10px ridge ;
+		
+		}
+
+
+/*dando estilo solo al menu*/
+#menu {	/*div*/
+	height: 55px;		
+	width: 81%;
+	margin: 0 auto;
+	background: #211320 ;
+	margin-bottom: 1%;
+
+	}
+
+ul li {
+	/*para lista*/
+	list-style: none;
+	display: inline-block;
+
+	/*arreglando txt list*/
+	line-height: 35px;
+	/*padding-left: 10% ;*/
+	font-weight: bold ;
+	
+	}
+
+#menu ul li a { color: white ;
+	  	text-decoration: none; /*quitar subrayado enlace*/
+		display:block;
+		padding: 10px 70px ;
+		}
+
+#menu ul li a:hover { background: #468506  ;
+
+			}
+
+/*fin dando diseño menu*/
+
+
+
+
+#cuerpo {	/*div*/
+	height: 800px;
+	width:75%;
+	background: #C8F29E ;
+	margin: 0 auto;
+
+	/*borde*/
+	border: #468506 10px groove ;
+
+	}
+
+#titulo {
+	height: 900px;
+	width: 100%;
+	background: #F4774C url('../img/metas.jpg') no-repeat center;
+	max-height: 200px;
+	
+}
+
+#inicio {
+	height: 130px;
+	width: 80%;
+	padding-left:10%;
+	padding-right:10%;
+	/*background: white;*/
+	text-align: justify;
+	}
+
+#bocadillo {
+	height: 400px;
+	width: 20%;
+	background: url('../img/bocadillo.png') no-repeat center;
+	float: left;
+	padding: 5%;
+
+}
+
+#bocadillo {
+	position: relative;
+	bottom: 125px;
+
+	}
+
+#bocadillo p {
+	position: relative;
+	top: 110px;
+	left: -5px;
+	color: white;
+	font-size: 35px;	
+	text-align: center;
+	}
+
+#metas {
+	height: 400px;
+	width: 68%;
+	background: url('../img/17metas.jpg') no-repeat center;
+	float: left;
+
+}
+
+
+
+
+

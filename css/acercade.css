@@ -1,0 +1,135 @@
+body {	background: #FFB900 ;
+
+	}
+
+#cabecera { 	/*div*/
+		height: 75px;		
+		width: 80%;
+		margin: 0 auto;
+		background: #FED8FB ;
+
+		/*text*/
+		text-align:center;	
+		line-height: 35px; 
+		color: #468506 ; 
+
+		/*borde*/
+		border: #6E0867 10px ridge ;
+		
+		}
+
+
+/*dando estilo solo al menu*/
+#menu {	
+	/*div*/
+	height: 55px;		
+	width: 81%;
+	margin: 0 auto;
+	background: #211320 ;
+	margin-bottom: 1%;
+
+	}
+
+ul li {
+	/*para lista*/
+	list-style: none;
+	display: inline-block;
+
+	/*arreglando txt list*/
+	line-height: 35px;
+	/*padding-left: 10% ;*/
+	font-weight: bold ;
+	
+	}
+
+#menu ul li a { color: white ;
+	  	text-decoration: none; /*quitar subrayado enlace*/
+		display:block;
+		padding: 10px 70px ;
+		}
+
+#menu ul li a:hover { background: #468506  ;
+
+			}
+
+/*fin dando diseño menu*/
+
+
+
+
+#cuerpo {	
+	/*div*/
+	height: 1100px;
+	width:75%;
+	background: #C8F29E ;
+	margin: 0 auto;
+
+	/*borde*/
+	border: #468506 10px groove ;
+
+	}
+
+
+#datos {
+	background: url('../img/archivador.png') center no-repeat ;
+	height: 600px ;
+	width:	70%;
+	float: left;
+}
+
+h3, p {
+	text-align: center;
+	margin: 20 0 20 0 ;		
+	position: relative;
+	top: 120px;
+	
+}
+
+p {
+	color: #FF0000 ;
+	font-size: 25px ;
+}
+
+
+#foto {
+	background: url('../img/usuario.png') center no-repeat ;
+	height: 300px ;
+	width: 30% ;
+	float: right;
+}
+
+
+#idiomas {
+	height: 300px ; 
+	width:	30% ;
+	float: right ;
+
+}
+
+#idiomas ul li {
+	display: block;
+	background: #CEFF00 ;
+	margin-top: 15px ;
+	font-family: tahoma ;
+	font-size: 18px ; 
+	border-radius: 20px 0px 0px 20px ;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393 ;
+}
+
+
+
+#mapa {
+	/*background: green;*/
+	height: 480px; 
+	width: 100%;
+	float: left;
+	text-align: center; 
+
+}
+
+
+
+
+
+

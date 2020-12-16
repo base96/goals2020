@@ -1,0 +1,78 @@
+<html>
+
+<head>
+	<title> Goals </title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/solicitud.css">
+
+
+</head>
+
+<body>
+
+	<div id="cabecera"> <h1> GLOBAL GOALS </h1> </div>
+
+	<div id="menu">	
+		<ul>
+			<li> <a href="../index.html"> INICIO </a> </li>
+			<li> <a href="descripcion.html"> DESCRIPCI&Oacute;N </a> </li>
+			<li> <a href="goals.html"> GOALS </a> </li>
+			<li> <a href="solicitud.html"> SOLICITUD </a> </li>
+			<li> <a href="acercade.html"> ¿QUIÉN SOY? </a> </li>
+		</ul>
+
+	</div>
+	
+	<div id="cuerpo"> 
+
+	<div>
+		<audio src="../audio/hiddenagenda.mp4" controls autoplay loop > </audio>
+	</div>
+
+	<div id="formulario">
+		<form action="  " method="post" >
+
+		<h2> Rellenar solicitud </h2>
+
+		<p><input type="text" name="nombre" value="" size="9" maxlength="10" placeholder="Nombre" class="input48" /></p>
+
+
+		<p><input type="text" name="apellidos" size="16" maxlength="15" placeholder="Apellidos" class="input48" /></p> 
+
+		<p><input type="email" name="correo" value=" " placeholder="Correo electrónico" class="input100"/></p>	
+
+		<p>Sexo</p>
+		<p><input type="radio" name="sexo" value="H" checked="checked" class="input27" /> Hombre </p>	
+		<p><input type="radio" name="sexo" value="M" class="input27" /> Mujer </p>	
+
+		<p> Categorías </p>
+		<p> <input type="checkbox" name="caridad" value="Caridad" checked="checked" class="input27" /> Caridad </p>
+		<p> <input type="checkbox" name="servicios" value="Servicios" class="input27" /> Servicios </p>
+		<p> <input type="checkbox" name="defensa" value="Defensa" class="input27" /> Defensa </p>
+
+		<p> D&iacute;as disponibles </p>
+		<select name="dias" class="input48" >
+			<option value="lu"> Lunes </option>
+			<option value="ma"> Martes </option>
+			<option value="ju"> Jueves </option>
+		</select></br>
+		
+		<p> Sugerencias </p>
+		<textarea cols="60" rows="15" class="input100"> </textarea> 
+
+		<p><input type="checkbox" name="suscribir" value="suscribir" checked="checked" class="input27" /> Suscribirse boletín </p>
+
+		<input type="reset" name="limpiar" value="Enviar solicitud" class="reset" /> 
+
+
+	
+
+		</form>
+	</div>	
+
+
+	</div>
+
+</body>
+
+</html>

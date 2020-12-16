@@ -1,0 +1,171 @@
+body {	background: #FFB900 ;
+	}
+
+#cabecera { 	/*div*/
+		height: 75px;		
+		width: 80%;
+		margin: 0 auto;
+		background: #FED8FB ;
+
+		/*text*/
+		text-align:center;	
+		line-height: 35px; 
+		color: #468506 ; 
+
+		/*borde*/
+		border: #6E0867 10px ridge ;
+		
+		}
+
+
+/*dando estilo solo al menu*/
+#menu {	/*div*/
+	height: 55px;		
+	width: 81%;
+	margin: 0 auto;
+	background: #211320 ;
+	margin-bottom: 1%;
+
+	}
+
+ul li {
+	/*para lista*/
+	list-style: none;
+	display: inline-block;
+
+	/*arreglando txt list*/
+	line-height: 35px;
+	/*padding-left: 10% ;*/
+	font-weight: bold ;
+	
+	}
+
+#menu ul li a { color: white ;
+	  	text-decoration: none; /*quitar subrayado enlace*/
+		display:block;
+		padding: 10px 70px ;
+		}
+
+#menu ul li a:hover { background: #468506  ;
+
+			}
+
+/*fin dando diseño menu*/
+
+
+
+
+
+/* contenedor verde */
+#cuerpo {
+
+	/*div*/
+	height: 1250px;
+	width:75%;
+	background: #C8F29E ;
+	margin: 0 auto;
+
+	/*borde*/
+	border: #468506 10px groove ;
+
+	}
+/*fin contenedor verde*/
+
+
+h2 {
+	text-align: center;
+
+}
+
+/*imagen que salga txt cuando hover */
+
+#imagen {
+	width: 500px;	
+	height: 500px;
+	margin: 0 auto; /*margin: 30px;*/
+	background: url('../img/nopoverty.jpg');
+
+}
+
+#info {
+	position: absolute;
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+	background: rgba(236, 166, 160, 0.9);
+	transition: opacity 0.2s;
+	opacity: 0;
+}
+
+#imagen:hover #info {
+	opacity: 1;
+	
+}
+
+p#titulo {	
+	position: absolute;
+	margin-top: 20px;
+	transition: margin 0.2s;
+	margin-left: -70px;
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+#imagen:hover p#titulo {
+	margin-left: 70px;	
+	
+}
+
+p#texto {
+	margin: 0 auto;
+	width: 425px;
+	text-align: center;
+	transition: margin 0.3s;
+	margin-top: 510px;
+	font-size: 24px;
+
+}
+
+#imagen:hover p#texto {
+	margin-top: 70px;
+	
+
+}
+
+/*FIN imagen que salga txt cuando hover */
+
+
+h3 {
+	padding-top: 20px;
+	margin-left: 20px;
+
+}
+
+/*video*/
+video {
+	padding-top: 20px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	/*float: left;*/
+
+}
+/*FINvideo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+body {	background: #FFB900 ;
+	}
+
+#cabecera { 	/*div*/
+		height: 75px;		
+		width: 80%;
+		margin: 0 auto;
+		background: #FED8FB ;
+
+		/*text*/
+		text-align:center;	
+		line-height: 35px; 
+		color: #468506 ; 
+
+		/*borde*/
+		border: #6E0867 10px ridge ;
+		
+		}
+
+
+/*dando estilo solo al menu*/
+#menu {	/*div*/
+	height: 55px;		
+	width: 81%;
+	margin: 0 auto;
+	background: #211320 ;
+	margin-bottom: 1%;
+
+	}
+
+ul li {
+	/*para lista*/
+	list-style: none;
+	display: inline-block;
+
+	/*arreglando txt list*/
+	line-height: 35px;
+	/*padding-left: 10% ;*/
+	font-weight: bold ;
+	
+	}
+
+#menu ul li a { color: white ;
+	  	text-decoration: none; /*quitar subrayado enlace*/
+		display:block;
+		padding: 10px 70px ;
+		}
+
+#menu ul li a:hover { background: #468506  ;
+
+			}
+
+/*fin dando diseño menu*/
+
+
+
+
+#cuerpo {	/*div*/
+	height: 1350px;
+	width:75%;
+	background: #C8F29E ;
+	margin: 0 auto;
+
+	/*borde*/
+	border: #468506 10px groove ;
+
+	}
+
+
+
+audio {
+	height: 100px;
+	width: 90%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	}
+
+
+#formulario {
+	padding-top: 0.1%;
+	background: url('../img/fondosolicitud.jpg') center no-repeat ;
+	height: 1150px;
+	width: 900px;
+	margin: 0 auto;
+	
+}
+
+form {
+	width: 95%;
+	max-width: 650px;
+	margin: 0 auto;
+	border-radius: 11px;
+	background: rgba(0, 0, 0, 0.1);
+	
+}
+
+h2 {
+	background: teal; /*deepskyblue*/
+	color: orange; /*#fff*/
+	padding: 20px;
+	text-align: center;
+	font-weight: 100px;
+	font-size: 30px;
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;
+	border-bottom: 5px solid lime;
+}
+
+p {
+	font-size: 15px;
+
+
+}
+
+input, textarea {
+	
+	padding: 2%;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	font-size: 16px;
+	border: 1px solid gray;	
+	border-radius: 7px;
+
+}
+
+.input27 {
+	width: 27%;
+}
+
+
+.input48 {
+	width: 47%;
+	float: left;
+}
+
+
+.input100 {
+	width: 96%;
+
+}
+
+.reset {
+	width: 47%
+	background: #F8A931; /*crimson*/
+	color: #F8A931;	
+	text-align: center;
+	margin-left: 250px ;
+	
+}
+
+/*pseduoclases formulario*/
+
+input:hover {
+	background: #31CFF8 ;
+	font-size: 20px;
+
+}
+
+
+input[type="radio"]:checked {
+	box-shadow: 0 0 0 4px green;
+	max-width: 50px;
+
+}
+
+
+input[type="checkbox"]:hover {
+	border: border: 1px solid ;
+	color: red;
+}
+
+
+textarea:hover {
+	background: yellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
